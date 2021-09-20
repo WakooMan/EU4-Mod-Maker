@@ -1,0 +1,27 @@
+#Country Name: Please see filename.
+
+graphical_culture = 
+
+color = {  }
+
+revolutionary_colors = {  }
+
+historical_idea_groups = {
+	
+}
+
+historical_units = {
+	
+}
+
+monarch_names = {
+	
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}

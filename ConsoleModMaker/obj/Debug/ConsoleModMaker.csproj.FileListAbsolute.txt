@@ -1,0 +1,7 @@
+C:\Github Repos\Egyéb\EU! Mod Maker\ConsoleModMaker\bin\Debug\ConsoleModMaker.exe.config
+C:\Github Repos\Egyéb\EU! Mod Maker\ConsoleModMaker\bin\Debug\ConsoleModMaker.exe
+C:\Github Repos\Egyéb\EU! Mod Maker\ConsoleModMaker\bin\Debug\ConsoleModMaker.pdb
+C:\Github Repos\Egyéb\EU! Mod Maker\ConsoleModMaker\obj\Debug\ConsoleModMaker.csproj.AssemblyReference.cache
+C:\Github Repos\Egyéb\EU! Mod Maker\ConsoleModMaker\obj\Debug\ConsoleModMaker.csproj.CoreCompileInputs.cache
+C:\Github Repos\Egyéb\EU! Mod Maker\ConsoleModMaker\obj\Debug\ConsoleModMaker.exe
+C:\Github Repos\Egyéb\EU! Mod Maker\ConsoleModMaker\obj\Debug\ConsoleModMaker.pdb

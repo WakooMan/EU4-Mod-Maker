@@ -52,6 +52,9 @@
     <Compile Include="Country\Monarch.cs" />
     <Compile Include="Country\Ruler.cs" />
     <Compile Include="Culture.cs" />
+    <Compile Include="FileManaging\Expression.cs" />
+    <Compile Include="FileManaging\File.cs" />
+    <Compile Include="FileManaging\FileDataManager.cs" />
     <Compile Include="Government.cs" />
     <Compile Include="Graphcult.cs" />
     <Compile Include="Ideagroup.cs" />

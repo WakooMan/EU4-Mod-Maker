@@ -1,0 +1,12 @@
+233 = "Kernow"
+4373 = "Dewnens"
+4130 = "Stradneth"
+4374 = "Durotriges"
+234 = "Belgae"
+236 = "Loundres"
+237 = "Rysoghen"
+4370 = "Grantapons"
+245 = "Evrek"
+373 = "Dulynn"
+4369 = "Ceredigion"
+

@@ -1,0 +1,322 @@
+philosopher = {
+	monarch_power = ADM
+	prestige = 1
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+natural_scientist = {
+	monarch_power = ADM
+	production_efficiency = 0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+artist = {
+	monarch_power = ADM
+	stability_cost_modifier = -0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+treasurer = {
+	monarch_power = ADM
+	global_tax_modifier = 0.1
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+theologian = {
+	monarch_power = ADM
+	global_unrest = -2
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+master_of_mint = {
+	monarch_power = ADM
+	inflation_reduction = 0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+inquisitor = {
+	monarch_power = ADM
+	global_missionary_strength = 0.02
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			has_owner_religion = no
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+statesman = {
+	monarch_power = DIP
+	diplomatic_reputation = 1
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+naval_reformer = {
+	monarch_power = DIP
+	naval_morale = 0.1
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			has_port = no
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				primitives = yes
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+trader = {
+	monarch_power = DIP
+	trade_efficiency = 0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+spymaster = {
+	monarch_power = DIP
+	spy_offence = 0.25
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+colonial_governor = {
+	monarch_power = DIP
+	global_tariffs = 0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = {
+				NOT = {
+					num_of_colonists = 1
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			owner = {
+				is_colonial_nation = yes
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+diplomat = {
+	monarch_power = DIP
+	improve_relation_modifier = 0.2
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+navigator = {
+	monarch_power = DIP
+	range = 0.20
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			owner = {
+				NOT = {
+					num_of_colonists = 1
+				}
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+army_reformer = {
+	monarch_power = MIL
+	land_morale = 0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1.8
+	}
+}
+army_organiser = {
+	monarch_power = MIL
+	land_forcelimit_modifier = 0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+commandant = {
+	monarch_power = MIL
+	discipline = 0.05
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1.8
+	}
+}
+quartermaster = {
+	monarch_power = MIL
+	reinforce_speed = 0.33
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.4
+			is_at_war = yes
+		}
+	}
+}
+recruitmaster = {
+	monarch_power = MIL
+	global_manpower_modifier = 0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}
+	}
+}
+fortification_expert = {
+	monarch_power = MIL
+	defensiveness = 0.2
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+grand_captain = {
+	monarch_power = MIL
+	land_maintenance_modifier = -0.10
+	skill_scaled_modifier = {
+		meritocracy = 0.25
+	}
+	chance = {
+		factor = 1
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}
+	}
+}
+

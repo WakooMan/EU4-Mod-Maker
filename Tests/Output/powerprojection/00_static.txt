@@ -1,0 +1,146 @@
+great_power_1 = {
+	power = 25
+}
+great_power_2 = {
+	power = 22
+}
+great_power_3 = {
+	power = 20
+}
+great_power_4 = {
+	power = 18
+}
+great_power_5 = {
+	power = 16
+}
+great_power_6 = {
+	power = 14
+}
+great_power_7 = {
+	power = 12
+}
+great_power_8 = {
+	power = 10
+}
+subsidies_to_enemy_of_rival = {
+	power = 50
+	max = 50
+}
+embargoing_rival = {
+	power = 3
+	max = 10
+}
+privateering_rival = {
+	power = 3
+	max = 10
+}
+supporting_rebels_in_rival = {
+	power = 50
+	max = 50
+}
+warned_rival = {
+	power = 0
+}
+guarantee_neighbour_of_rival = {
+	power = 0
+}
+current_age_power_projection = {
+	power = 3
+	max = 21
+}
+is_hegemon = {
+	power = 25
+}
+allied_to_hegemon = {
+	power = -20
+	min = -20
+}
+last_age_power_projection = {
+	power = 3
+	yearly_decay = 1
+	max = 21
+}
+insulted_rival = {
+	power = 5
+	yearly_decay = 1
+	max = 5
+}
+scornfully_insulted_rival = {
+	power = 10
+	yearly_decay = 1
+	max = 10
+}
+humiliated_rival = {
+	power = 30
+	yearly_decay = 1
+	max = 30
+}
+humiliated_by_rival = {
+	power = -30
+	yearly_decay = 1
+	min = -30
+}
+eclipsed_rival = {
+	power = 10
+	yearly_decay = 1
+	max = 30
+}
+declared_war_at_rival = {
+	power = 10
+	yearly_decay = 1
+	max = 20
+}
+joined_war_against_rival = {
+	power = 10
+	yearly_decay = 1
+	max = 20
+}
+refused_war_against_rival = {
+	power = -20
+	yearly_decay = 1
+	min = -20
+}
+vassalized_rival = {
+	power = 0.5
+	yearly_decay = 1
+	max = 100
+}
+took_province_from_rival = {
+	power = 0.5
+	yearly_decay = 1
+	max = 100
+}
+lost_province_to_rival = {
+	power = -0.5
+	yearly_decay = 1
+	min = -100
+}
+rival_lost_province = {
+	power = 0.5
+	yearly_decay = 1
+	max = 100
+}
+spread_revolution_to_enemy = {
+	power = 0.1
+	yearly_decay = 1
+	max = 50
+}
+spread_revolution_to_us = {
+	power = -0.1
+	yearly_decay = 1
+	min = -50
+}
+mission_rewards_power_projection = {
+	max = 100
+	power = 1
+	yearly_decay = 1
+}
+lacking_rival = {
+	power = -1
+	min = -60
+}
+has_rival = {
+	power = 1
+	max = 15
+}
+

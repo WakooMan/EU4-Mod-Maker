@@ -1,0 +1,7 @@
+C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\bin\Debug\FileReadingTest.exe.config
+C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\bin\Debug\FileReadingTest.exe
+C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\bin\Debug\FileReadingTest.pdb
+C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.csproj.AssemblyReference.cache
+C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.csproj.CoreCompileInputs.cache
+C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.exe
+C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.pdb

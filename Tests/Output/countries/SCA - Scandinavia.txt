@@ -1,0 +1,7 @@
+government = monarchy
+technology_group = western
+primary_culture = swedish
+religion = protestant
+add_accepted_culture = finnish
+capital = 1
+

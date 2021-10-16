@@ -1,0 +1,262 @@
+government = monarchy
+add_government_reform = nayankara_reform
+primary_culture = oriya
+religion = hinduism
+technology_group = indian
+capital = 552
+1434.1.1 = {
+	monarch = {
+		name = "Kapilendra"
+		dynasty = "Gajapati"
+		ADM = 4
+		DIP = 5
+		MIL = 6
+		leader = {
+			name = "Kapilendra"
+			type = general
+			fire = 3
+			shock = 5
+			manuever = 2
+			siege = 1
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = inspiring_leader_personality
+	add_heir_personality = bold_fighter_personality
+	heir = {
+		name = "Hamvira"
+		monarch_name = "Hamvira"
+		dynasty = "Gajapati"
+		birth_date = 1418.1.1
+		death_Date = 1476.1.1
+		claim = 95
+		ADM = 3
+		DIP = 2
+		MIL = 2
+	}
+	queen = {
+		country_of_origin = ORI
+		name = "Parvati Devi"
+		dynasty = "Dash"
+		birth_date = 1420.1.1
+		death_date = 1480.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1465.1.1 = {
+	heir = {
+		name = "Purushottama"
+		monarch_name = "Purushottama"
+		dynasty = "Gajapati"
+		birth_date = 1420.1.1
+		death_Date = 1497.4.2
+		claim = 95
+		ADM = 3
+		DIP = 2
+		MIL = 5
+	}
+}
+1466.1.1 = {
+	monarch = {
+		name = "Purushottama"
+		dynasty = "Gajapati"
+		ADM = 3
+		DIP = 2
+		MIL = 5
+	}
+}
+1472.1.1 = {
+	monarch = {
+		name = "Hamvira"
+		dynasty = "Gajapati"
+		ADM = 3
+		DIP = 2
+		MIL = 2
+	}
+}
+1476.1.1 = {
+	monarch = {
+		name = "Purushottama"
+		dynasty = "Gajapati"
+		ADM = 3
+		DIP = 2
+		MIL = 6
+	}
+}
+1476.1.1 = {
+	heir = {
+		name = "Prat�prudra"
+		monarch_name = "Prat�prudra"
+		dynasty = "Gajapati"
+		birth_date = 1470.1.1
+		death_date = 1540.1.1
+		claim = 95
+		ADM = 1
+		DIP = 3
+		MIL = 1
+	}
+}
+1489.1.1 = {
+	queen = {
+		country_of_origin = VIJ
+		name = "Padmavati Devi"
+		dynasty = "Saluva"
+		birth_date = 1420.1.1
+		death_date = 1480.1.1
+		female = yes
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1497.4.2 = {
+	monarch = {
+		name = "Prat�prudra"
+		dynasty = "Gajapati"
+		ADM = 1
+		DIP = 3
+		MIL = 1
+	}
+}
+1497.4.2 = {
+	heir = {
+		name = "Kaluadeva"
+		monarch_name = "Kaluadeva"
+		dynasty = "Gajapati"
+		birth_date = 1490.1.1
+		death_date = 1541.1.1
+		claim = 95
+		ADM = 3
+		DIP = 1
+		MIL = 2
+	}
+}
+1540.1.1 = {
+	monarch = {
+		name = "Kaluadeva"
+		dynasty = "Gajapati"
+		ADM = 3
+		DIP = 1
+		MIL = 2
+	}
+}
+1541.1.1 = {
+	monarch = {
+		name = "Govindaraja Vidyadhara"
+		dynasty = "Bhoi"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+1541.1.1 = {
+	heir = {
+		name = "Chakrapret�pa"
+		monarch_name = "Chakrapret�pa"
+		dynasty = "Bhoi"
+		birth_date = 1520.1.1
+		death_date = 1557.1.1
+		claim = 95
+		ADM = 0
+		DIP = 1
+		MIL = 1
+	}
+}
+1549.1.1 = {
+	monarch = {
+		name = "Chakrapret�pa"
+		dynasty = "Bhoi"
+		ADM = 0
+		DIP = 1
+		MIL = 1
+	}
+}
+1549.1.1 = {
+	heir = {
+		name = "N�rashima Jana"
+		monarch_name = "N�rashima Jana"
+		dynasty = "Bhoi"
+		birth_date = 1540.1.1
+		death_date = 1558.1.1
+		claim = 95
+		ADM = 0
+		DIP = 0
+		MIL = 1
+	}
+}
+1557.1.1 = {
+	monarch = {
+		name = "N�rashima Jana"
+		dynasty = "Bhoi"
+		ADM = 0
+		DIP = 0
+		MIL = 1
+	}
+}
+1557.1.1 = {
+	heir = {
+		name = "Raghur�ma Chhotra"
+		monarch_name = "Raghur�ma Chhotra"
+		dynasty = "Bhoi"
+		birth_date = 1530.1.1
+		death_date = 1560.1.1
+		claim = 95
+		ADM = 0
+		DIP = 1
+		MIL = 0
+	}
+}
+1558.1.1 = {
+	monarch = {
+		name = "Raghur�ma Chhotra"
+		dynasty = "Bhoi"
+		ADM = 0
+		DIP = 1
+		MIL = 0
+	}
+}
+1560.1.1 = {
+	monarch = {
+		name = "Mukundadeva Harishandra"
+		dynasty = "Chalukya"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+	}
+}
+1560.1.1 = {
+	heir = {
+		name = "R�mchandra Deva"
+		monarch_name = "R�mchandra Deva I"
+		dynasty = "Chalukya"
+		birth_date = 1540.1.1
+		death_date = 1607.1.1
+		claim = 95
+		ADM = 4
+		DIP = 3
+		MIL = 3
+	}
+}
+1567.1.1 = {
+	monarch = {
+		name = "R�mchandra Deva I"
+		dynasty = "Chalukya"
+		ADM = 4
+		DIP = 3
+		MIL = 3
+	}
+}
+1572.1.1 = {
+	monarch = {
+		name = "Da'ud"
+		dynasty = "Karrani"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+	}
+}
+

@@ -1,0 +1,547 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = assamese
+religion = hinduism
+technology_group = indian
+unit_type = chinese
+capital = 566
+1397.1.1 = {
+	monarch = {
+		name = "Sudangpha"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 3
+	}
+}
+1397.1.1 = {
+	heir = {
+		name = "Sujangpha"
+		monarch_name = "Sujangpha"
+		dynasty = "Ahom"
+		birth_date = 1370.1.1
+		death_Date = 1422.1.1
+		claim = 95
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+1407.1.1 = {
+	monarch = {
+		name = "Sujangpha"
+		dynasty = "Ahom"
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}
+1407.1.1 = {
+	heir = {
+		name = "Siphakpha"
+		monarch_name = "Siphakpha"
+		dynasty = "Ahom"
+		birth_date = 1400.1.1
+		death_Date = 1439.1.1
+		claim = 95
+		ADM = 2
+		DIP = 0
+		MIL = 2
+	}
+}
+1422.1.1 = {
+	monarch = {
+		name = "Siphakpha"
+		dynasty = "Ahom"
+		ADM = 2
+		DIP = 0
+		MIL = 2
+	}
+}
+1422.1.1 = {
+	heir = {
+		name = "Susenph�"
+		monarch_name = "Susenph�"
+		dynasty = "Ahom"
+		birth_date = 1420.1.1
+		death_Date = 1488.1.1
+		claim = 95
+		ADM = 4
+		DIP = 2
+		MIL = 3
+	}
+}
+1439.1.1 = {
+	monarch = {
+		name = "Susenph�"
+		dynasty = "Ahom"
+		ADM = 4
+		DIP = 2
+		MIL = 3
+	}
+}
+1450.1.1 = {
+	heir = {
+		name = "Suhenph�"
+		monarch_name = "Suhenph�"
+		dynasty = "Ahom"
+		birth_date = 1450.1.1
+		death_Date = 1493.1.1
+		claim = 95
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}
+1488.1.1 = {
+	monarch = {
+		name = "Suhenph�"
+		dynasty = "Ahom"
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}
+1493.1.1 = {
+	monarch = {
+		name = "Supimph�"
+		dynasty = "Ahom"
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}
+1493.1.1 = {
+	heir = {
+		name = "Suhungmung"
+		monarch_name = "Suhungmung"
+		dynasty = "Ahom"
+		birth_date = 1490.1.1
+		death_Date = 1539.1.1
+		claim = 95
+		ADM = 0
+		DIP = 0
+		MIL = 1
+	}
+}
+1497.1.1 = {
+	monarch = {
+		name = "Suhungmung"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 1
+	}
+}
+1497.1.1 = {
+	heir = {
+		name = "Suklenmung"
+		monarch_name = "Suklenmung"
+		dynasty = "Ahom"
+		birth_date = 1497.1.1
+		death_Date = 1552.1.1
+		claim = 95
+		ADM = 3
+		DIP = 2
+		MIL = 2
+	}
+}
+1539.1.1 = {
+	monarch = {
+		name = "Suklenmung"
+		dynasty = "Ahom"
+		ADM = 3
+		DIP = 2
+		MIL = 2
+	}
+}
+1539.1.1 = {
+	heir = {
+		name = "Sukhamph�"
+		monarch_name = "Sukhamph�"
+		dynasty = "Ahom"
+		birth_date = 1530.1.1
+		death_Date = 1603.1.1
+		claim = 95
+		ADM = 3
+		DIP = 3
+		MIL = 2
+	}
+}
+1552.1.1 = {
+	monarch = {
+		name = "Sukhamph�"
+		dynasty = "Ahom"
+		ADM = 3
+		DIP = 3
+		MIL = 2
+	}
+}
+1570.1.1 = {
+	heir = {
+		name = "Susengph�"
+		monarch_name = "Susengph�"
+		dynasty = "Ahom"
+		birth_date = 1570.1.1
+		death_Date = 1641.1.1
+		claim = 95
+		ADM = 3
+		DIP = 3
+		MIL = 1
+	}
+}
+1603.1.1 = {
+	monarch = {
+		name = "Susengph�"
+		dynasty = "Ahom"
+		ADM = 3
+		DIP = 3
+		MIL = 1
+	}
+}
+1603.1.1 = {
+	heir = {
+		name = "Suramph�"
+		monarch_name = "Suramph�"
+		dynasty = "Ahom"
+		birth_date = 1600.1.1
+		death_Date = 1644.1.1
+		claim = 95
+		ADM = 0
+		DIP = 0
+		MIL = 0
+	}
+}
+1641.1.1 = {
+	monarch = {
+		name = "Suramph�"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+	}
+}
+1641.1.1 = {
+	heir = {
+		name = "Sutyinph�"
+		monarch_name = "Sutyinph�"
+		dynasty = "Ahom"
+		birth_date = 1641.1.1
+		death_Date = 1648.1.1
+		claim = 95
+		ADM = 0
+		DIP = 1
+		MIL = 0
+	}
+}
+1644.1.1 = {
+	monarch = {
+		name = "Sutyinph�"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 1
+		MIL = 0
+	}
+}
+1644.1.1 = {
+	heir = {
+		name = "Sutamla"
+		monarch_name = "Sutamla"
+		dynasty = "Ahom"
+		birth_date = 1640.1.1
+		death_Date = 1663.9.1
+		claim = 95
+		ADM = 0
+		DIP = 0
+		MIL = 2
+	}
+}
+1648.1.1 = {
+	monarch = {
+		name = "Sutamla"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 2
+	}
+}
+1663.9.1 = {
+	monarch = {
+		name = "Supungmung"
+		dynasty = "Ahom"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+1669.1.1 = {
+	monarch = {
+		name = "Sunyatph�"
+		dynasty = "Ahom"
+		ADM = 3
+		DIP = 1
+		MIL = 2
+	}
+}
+1673.8.1 = {
+	monarch = {
+		name = "Suklamph�"
+		dynasty = "Ahom"
+		ADM = 1
+		DIP = 1
+		MIL = 2
+	}
+}
+1675.1.1 = {
+	monarch = {
+		name = "Suhung"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+	}
+}
+1675.6.1 = {
+	monarch = {
+		name = "Gobar"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+	}
+}
+1676.1.1 = {
+	monarch = {
+		name = "Sujinph�"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+	}
+}
+1677.7.1 = {
+	monarch = {
+		name = "Sudalph�"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 1
+		MIL = 1
+	}
+}
+1679.1.1 = {
+	monarch = {
+		name = "Sulikph�"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 1
+	}
+}
+1681.7.1 = {
+	monarch = {
+		name = "Supatph�"
+		dynasty = "Ahom"
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+}
+1681.7.1 = {
+	heir = {
+		name = "Sukrungph�"
+		monarch_name = "Sukrungph�"
+		dynasty = "Ahom"
+		birth_date = 1660.1.1
+		death_Date = 1714.2.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+1696.1.1 = {
+	monarch = {
+		name = "Sukrungph�"
+		dynasty = "Ahom"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+1696.1.1 = {
+	heir = {
+		name = "Sutanph�"
+		monarch_name = "Sutanph�"
+		dynasty = "Ahom"
+		birth_date = 1690.1.1
+		death_Date = 1744.1.1
+		claim = 95
+		ADM = 0
+		DIP = 1
+		MIL = 1
+	}
+}
+1714.2.1 = {
+	monarch = {
+		name = "Sutanph�"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 1
+		MIL = 1
+	}
+}
+1714.2.1 = {
+	heir = {
+		name = "Sunenph�"
+		monarch_name = "Sunenph�"
+		dynasty = "Ahom"
+		birth_date = 1700.1.1
+		death_Date = 1751.1.1
+		claim = 95
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+}
+1744.1.1 = {
+	monarch = {
+		name = "Sunenph�"
+		dynasty = "Ahom"
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+}
+1744.1.1 = {
+	heir = {
+		name = "Suramph�"
+		monarch_name = "Suramph�"
+		dynasty = "Ahom"
+		birth_date = 1740.1.1
+		death_Date = 1769.1.1
+		claim = 95
+		ADM = 1
+		DIP = 2
+		MIL = 2
+	}
+}
+1751.1.1 = {
+	monarch = {
+		name = "Suramph�"
+		dynasty = "Ahom"
+		ADM = 1
+		DIP = 2
+		MIL = 2
+	}
+}
+1751.1.1 = {
+	heir = {
+		name = "Suyeoph�"
+		monarch_name = "Suyeoph�"
+		dynasty = "Ahom"
+		birth_date = 1751.1.1
+		death_date = 1780.12.1
+		claim = 95
+		ADM = 1
+		DIP = 2
+		MIL = 2
+	}
+}
+1769.1.1 = {
+	monarch = {
+		name = "Suyeoph�"
+		dynasty = "Ahom"
+		ADM = 1
+		DIP = 2
+		MIL = 2
+	}
+}
+1769.1.1 = {
+	heir = {
+		name = "Suhitpangph�"
+		monarch_name = "Suhitpangph�"
+		dynasty = "Ahom"
+		birth_date = 1760.1.1
+		death_Date = 1794.12.20
+		claim = 95
+		ADM = 0
+		DIP = 0
+		MIL = 1
+	}
+}
+1780.12.1 = {
+	monarch = {
+		name = "Suhitpangph�"
+		dynasty = "Ahom"
+		ADM = 0
+		DIP = 0
+		MIL = 1
+	}
+}
+1780.12.1 = {
+	heir = {
+		name = "Suklingph�"
+		monarch_name = "Suklingph�"
+		dynasty = "Ahom"
+		birth_date = 1770.1.1
+		death_Date = 1810.1.1
+		claim = 95
+		ADM = 1
+		DIP = 1
+		MIL = 0
+	}
+}
+1794.12.20 = {
+	monarch = {
+		name = "Suklingph�"
+		dynasty = "Ahom"
+		ADM = 1
+		DIP = 1
+		MIL = 0
+	}
+}
+1794.12.20 = {
+	heir = {
+		name = "Sudinpha"
+		monarch_name = "Sudinpha"
+		dynasty = "Ahom"
+		birth_date = 1790.1.1
+		death_Date = 1818.1.1
+		claim = 95
+		ADM = 1
+		DIP = 0
+		MIL = 2
+	}
+}
+1810.1.1 = {
+	monarch = {
+		name = "Sudinpha"
+		dynasty = "Ahom"
+		ADM = 1
+		DIP = 0
+		MIL = 2
+	}
+}
+1810.1.1 = {
+	heir = {
+		name = "Brajnatha"
+		monarch_name = "Brajnatha"
+		dynasty = "Ahom"
+		birth_date = 1800.1.1
+		death_Date = 1847.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 3
+	}
+}
+1818.1.1 = {
+	monarch = {
+		name = "Brajnatha"
+		dynasty = "Ahom"
+		ADM = 2
+		DIP = 2
+		MIL = 3
+	}
+}
+

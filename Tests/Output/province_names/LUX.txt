@@ -1,0 +1,4 @@
+80 = "Tr�ier"
+93 = "L�ck"
+94 = "L�tzebuerg"
+

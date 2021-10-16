@@ -1,0 +1,7 @@
+10 = "Jemtland"
+16 = "B�huslen"
+369 = "Orkneyjar"
+1978 = "Hjaltland"
+1979 = "F�r�yene"
+4143 = "Borgarsysla"
+

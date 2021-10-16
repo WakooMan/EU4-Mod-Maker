@@ -1,0 +1,577 @@
+vassal = {
+	first = FRA
+	second = ORL
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+vassal = {
+	first = FRA
+	second = AMG
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+vassal = {
+	first = FRA
+	second = AUV
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+vassal = {
+	first = FRA
+	second = FOI
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+vassal = {
+	first = FRA
+	second = BOU
+	start_date = 1444.1.1
+	end_date = 1532.8.3
+}
+union = {
+	first = FRA
+	second = BRI
+	start_date = 1491.12.6
+	end_date = 1532.8.3
+}
+union = {
+	first = FRA
+	second = PLC
+	start_date = 1574.5.30
+	end_date = 1575.1.1
+}
+union = {
+	first = FRA
+	second = GEN
+	start_date = 1458.1.1
+	end_date = 1461.1.1
+}
+union = {
+	first = PRO
+	second = LOR
+	start_date = 1431.1.25
+	end_date = 1453.2.28
+}
+alliance = {
+	first = FRA
+	second = PRO
+	start_date = 1431.1.25
+	end_date = 1453.7.18
+}
+alliance = {
+	first = LOR
+	second = BAR
+	start_date = 1480.7.10
+	end_date = 1483.3.23
+}
+alliance = {
+	first = FRA
+	second = GEN
+	start_date = 1458.1.1
+	end_date = 1461.1.1
+}
+alliance = {
+	first = BUR
+	second = BRI
+	start_date = 1435.9.21
+	end_date = 1441.1.2
+}
+vassal = {
+	first = FRA
+	second = LOR
+	start_date = 1641.1.1
+	end_date = 1670.1.1
+}
+vassal = {
+	first = FRA
+	second = NRM
+	start_date = 1465.8.15
+	end_date = 1466.3.6
+}
+vassal = {
+	first = FRA
+	second = NEV
+	start_date = 1465.1.1
+	end_date = 1539.1.1
+}
+vassal = {
+	first = FRA
+	second = NED
+	start_date = 1795.1.19
+	end_date = 1813.11.30
+}
+alliance = {
+	first = FRA
+	second = WES
+	start_date = 1807.7.9
+	end_date = 1813.10.14
+}
+alliance = {
+	first = FRA
+	second = BAV
+	start_date = 1806.7.25
+	end_date = 1813.10.8
+}
+alliance = {
+	first = FRA
+	second = BAD
+	start_date = 1806.7.26
+	end_date = 1813.10.20
+}
+alliance = {
+	first = FRA
+	second = HES
+	start_date = 1806.7.26
+	end_date = 1813.10.20
+}
+alliance = {
+	first = FRA
+	second = ANH
+	start_date = 1806.7.25
+	end_date = 1813.10.18
+}
+alliance = {
+	first = FRA
+	second = MAI
+	start_date = 1797.12.26
+	end_date = 1810.1.1
+}
+alliance = {
+	first = FRA
+	second = FRN
+	start_date = 1810.1.1
+	end_date = 1814.4.11
+}
+alliance = {
+	first = FRA
+	second = WUR
+	start_date = 1806.7.25
+	end_date = 1813.11.2
+}
+alliance = {
+	first = FRA
+	second = WBG
+	start_date = 1806.9.15
+	end_date = 1813.10.25
+}
+alliance = {
+	first = FRA
+	second = SAX
+	start_date = 1806.12.15
+	end_date = 1813.10.18
+}
+alliance = {
+	first = FRA
+	second = MKL
+	start_date = 1806.12.15
+	end_date = 1814.4.11
+}
+vassal = {
+	first = FRA
+	second = BAV
+	start_date = 1806.7.25
+	end_date = 1813.1.1
+}
+vassal = {
+	first = FRA
+	second = BAD
+	start_date = 1806.7.26
+	end_date = 1813.10.20
+}
+vassal = {
+	first = FRA
+	second = HES
+	start_date = 1806.7.25
+	end_date = 1813.10.20
+}
+vassal = {
+	first = FRA
+	second = ANH
+	start_date = 1806.7.25
+	end_date = 1813.10.18
+}
+vassal = {
+	first = FRA
+	second = MAI
+	start_date = 1797.12.26
+	end_date = 1810.1.1
+}
+vassal = {
+	first = FRA
+	second = FRN
+	start_date = 1810.1.1
+	end_date = 1814.4.11
+}
+vassal = {
+	first = FRA
+	second = WUR
+	start_date = 1806.7.25
+	end_date = 1813.11.2
+}
+vassal = {
+	first = FRA
+	second = WBG
+	start_date = 1806.9.15
+	end_date = 1813.10.25
+}
+vassal = {
+	first = FRA
+	second = SAX
+	start_date = 1806.12.15
+	end_date = 1813.10.18
+}
+vassal = {
+	first = FRA
+	second = MKL
+	start_date = 1806.12.15
+	end_date = 1814.4.11
+}
+vassal = {
+	first = FRA
+	second = WES
+	start_date = 1807.7.9
+	end_date = 1813.10.13
+}
+vassal = {
+	first = FRA
+	second = THU
+	start_date = 1806.10.14
+	end_date = 1813.10.13
+}
+alliance = {
+	first = SWI
+	second = HAB
+	start_date = 1474.3.30
+	end_date = 1477.1.6
+}
+alliance = {
+	first = SWI
+	second = LOR
+	start_date = 1474.4.18
+	end_date = 1477.1.6
+}
+guarantee = {
+	first = FRA
+	second = SCO
+	start_date = 1444.1.1
+	end_date = 1560.1.1
+}
+alliance = {
+	first = FRA
+	second = VEN
+	start_date = 1499.2.9
+	end_date = 1504.1.31
+}
+alliance = {
+	first = FRA
+	second = ARA
+	start_date = 1500.11.11
+	end_date = 1502.7.2
+}
+alliance = {
+	first = FRA
+	second = HAB
+	start_date = 1508.12.10
+	end_date = 1511.10.4
+}
+alliance = {
+	first = FRA
+	second = MOD
+	start_date = 1508.12.10
+	end_date = 1515.12.4
+}
+alliance = {
+	first = FRA
+	second = VEN
+	start_date = 1513.3.23
+	end_date = 1529.8.3
+}
+alliance = {
+	first = FRA
+	second = TUR
+	start_date = 1536.2.4
+	end_date = 1544.9.18
+}
+alliance = {
+	first = FRA
+	second = SWE
+	start_date = 1635.4.18
+	end_date = 1648.10.24
+}
+alliance = {
+	first = FRA
+	second = ENG
+	start_date = 1657.7.23
+	end_date = 1659.11.5
+}
+alliance = {
+	first = FRA
+	second = ENG
+	start_date = 1670.5.22
+	end_date = 1674.2.19
+}
+alliance = {
+	first = FRA
+	second = MUN
+	start_date = 1671.7.1
+	end_date = 1674.4.22
+}
+alliance = {
+	first = FRA
+	second = KOL
+	start_date = 1671.7.1
+	end_date = 1674.5.11
+}
+alliance = {
+	first = FRA
+	second = SWE
+	start_date = 1672.4.14
+	end_date = 1679.1.26
+}
+alliance = {
+	first = FRA
+	second = HUR
+	start_date = 1689.1.1
+	end_date = 1697.9.20
+}
+alliance = {
+	first = FRA
+	second = HUR
+	start_date = 1702.1.1
+	end_date = 1713.1.1
+}
+alliance = {
+	first = FRA
+	second = BAV
+	start_date = 1701.3.9
+	end_date = 1726.1.1
+}
+alliance = {
+	first = FRA
+	second = KOL
+	start_date = 1701.3.9
+	end_date = 1714.3.7
+}
+alliance = {
+	first = FRA
+	second = GBR
+	start_date = 1717.1.1
+	end_date = 1720.2.17
+}
+alliance = {
+	first = FRA
+	second = NED
+	start_date = 1717.1.1
+	end_date = 1720.2.17
+}
+alliance = {
+	first = FRA
+	second = BAV
+	start_date = 1727.1.1
+	end_date = 1743.1.1
+}
+alliance = {
+	first = FRA
+	second = SAR
+	start_date = 1733.1.1
+	end_date = 1738.1.1
+}
+alliance = {
+	first = FRA
+	second = HUR
+	start_date = 1740.1.1
+	end_date = 1748.1.1
+}
+alliance = {
+	first = FRA
+	second = PRU
+	start_date = 1741.6.5
+	end_date = 1745.12.25
+}
+alliance = {
+	first = FRA
+	second = HAB
+	start_date = 1756.5.1
+	end_date = 1777.12.31
+}
+alliance = {
+	first = FRA
+	second = SWE
+	start_date = 1795.1.1
+	end_date = 1796.1.1
+}
+alliance = {
+	first = FRA
+	second = USA
+	start_date = 1778.5.6
+	end_date = 1789.7.13
+}
+alliance = {
+	first = FRA
+	second = USA
+	start_date = 1789.7.14
+	end_date = 1793.2.1
+}
+alliance = {
+	first = FRA
+	second = SPA
+	start_date = 1795.7.22
+	end_date = 1813.12.11
+}
+alliance = {
+	first = FRA
+	second = MOD
+	start_date = 1796.10.16
+	end_date = 1797.6.29
+}
+vassal = {
+	first = FRA
+	second = MOD
+	start_date = 1796.10.16
+	end_date = 1797.6.29
+}
+alliance = {
+	first = FRA
+	second = MLO
+	start_date = 1796.10.16
+	end_date = 1797.6.29
+}
+vassal = {
+	first = FRA
+	second = MLO
+	start_date = 1796.11.15
+	end_date = 1797.6.29
+}
+vassal = {
+	first = FRA
+	second = ITA
+	start_date = 1797.6.29
+	end_date = 1805.3.18
+}
+alliance = {
+	first = FRA
+	second = ITA
+	start_date = 1797.6.29
+	end_date = 1814.4.11
+}
+union = {
+	first = FRA
+	second = ITA
+	start_date = 1805.3.18
+	end_date = 1814.4.11
+}
+vassal = {
+	first = FRA
+	second = ETR
+	start_date = 1801.3.21
+	end_date = 1807.12.10
+}
+vassal = {
+	first = FRA
+	second = KLE
+	start_date = 1806.7.12
+	end_date = 1813.11.30
+}
+vassal = {
+	first = FRA
+	second = DNZ
+	start_date = 1807.7.9
+	end_date = 1814.4.11
+}
+union = {
+	first = FRA
+	second = SPA
+	start_date = 1808.5.6
+	end_date = 1808.6.6
+}
+union = {
+	first = FRA
+	second = BRG
+	start_date = 1808.8.1
+	end_date = 1809.3.17
+}
+vassal = {
+	first = FRA
+	second = SPA
+	start_date = 1808.6.6
+	end_date = 1813.12.14
+}
+vassal = {
+	first = FRA
+	second = NAP
+	start_date = 1806.3.11
+	end_date = 1814.1.11
+}
+royal_marriage = {
+	first = FRA
+	second = BRI
+	start_date = 1491.12.6
+	end_date = 1498.4.7
+}
+royal_marriage = {
+	first = FRA
+	second = BRI
+	start_date = 1499.1.8
+	end_date = 1514.1.9
+}
+royal_marriage = {
+	first = FRA
+	second = LAN
+	start_date = 1533.10.28
+	end_date = 1559.7.10
+}
+royal_marriage = {
+	first = FRA
+	second = SPA
+	start_date = 1615.11.24
+	end_date = 1643.5.14
+}
+royal_marriage = {
+	first = FRA
+	second = SPA
+	start_date = 1660.1.1
+	end_date = 1683.7.30
+}
+royal_marriage = {
+	first = FRA
+	second = HAB
+	start_date = 1774.5.10
+	end_date = 1789.7.14
+}
+royal_marriage = {
+	first = SAV
+	second = FRA
+	start_date = 1453.1.1
+	end_date = 1472.3.30
+}
+royal_marriage = {
+	first = SAV
+	second = FRA
+	start_date = 1559.7.9
+	end_date = 1574.6.5
+}
+royal_marriage = {
+	first = SAV
+	second = SPA
+	start_date = 1585.3.11
+	end_date = 1597.10.10
+}
+royal_marriage = {
+	first = SAV
+	second = FRA
+	start_date = 1619.2.10
+	end_date = 1663.12.27
+}
+royal_marriage = {
+	first = FRA
+	second = SPI
+	start_date = 1771.4.16
+	end_date = 1789.7.14
+}
+royal_marriage = {
+	first = FRA
+	second = HAB
+	start_date = 1810.3.11
+	end_date = 1814.4.6
+}
+

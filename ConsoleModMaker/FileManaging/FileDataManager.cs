@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using ConsoleModMaker.Country;
-using ConsoleModMaker.FileManaging;
 
-namespace ConsoleModMaker
+namespace ConsoleModMaker.FileManaging
 {
     class FileDataManager
     {

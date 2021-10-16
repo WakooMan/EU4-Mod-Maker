@@ -1,0 +1,103 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = sumatran
+religion = sunni
+technology_group = chinese
+capital = 622
+religious_school = shafii_school
+1399.1.1 = {
+	add_piety = -0.1
+}
+1444.1.1 = {
+	monarch = {
+		name = "Jisun"
+		dynasty = "Shi"
+		adm = 2
+		dip = 2
+		mil = 2
+		culture = wu
+	}
+}
+1550.1.1 = {
+	monarch = {
+		name = "Tsalenggathu"
+		dynasty = "Palembang"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1580.1.1 = {
+	monarch = {
+		name = "Tsau-Lha"
+		dynasty = "Palembang"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1610.1.1 = {
+	monarch = {
+		name = "Mengtsekya"
+		dynasty = "Palembang"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1640.1.1 = {
+	monarch = {
+		name = "Menradza"
+		dynasty = "Palembang"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1670.1.1 = {
+	monarch = {
+		name = "Inayat"
+		dynasty = "Palembang"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1700.1.1 = {
+	monarch = {
+		name = "Gadzabadi"
+		dynasty = "Palembang"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1730.1.1 = {
+	monarch = {
+		name = "Amritpal"
+		dynasty = "Palembang"
+		adm = 2
+		dip = 3
+		mil = 2
+		female = yes
+	}
+}
+1760.1.1 = {
+	monarch = {
+		name = "Mengtsekya"
+		dynasty = "Palembang"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1790.1.1 = {
+	monarch = {
+		name = "Husayn"
+		dynasty = "Palembang"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+

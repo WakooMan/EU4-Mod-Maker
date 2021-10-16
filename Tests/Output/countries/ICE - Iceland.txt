@@ -1,0 +1,6 @@
+government = republic
+primary_culture = icelandic
+religion = catholic
+technology_group = western
+capital = 370
+

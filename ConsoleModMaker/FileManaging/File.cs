@@ -17,84 +17,154 @@ namespace ConsoleModMaker.FileManaging
         public File(string fname)
         { filename = fname; expressions = new List<Expression>(); }
         public string Filename { get { return filename; } }
+
+        public List<string> Columns { get { return columns; } }
         public void ReadFile()
         {
-            freader = new StreamReader(filename);
-            while (!freader.EndOfStream)
+            #region FileReading without comments
+            using (freader = new StreamReader(filename))
             {
-                string line = freader.ReadLine();
-                if (!line.Trim().Equals("") && !line.Trim().StartsWith("#"))
-                    columns.Add(line);
+                while (!freader.EndOfStream)
+                {
+                    string line = freader.ReadLine();
+                    if (!line.Trim().Equals("") && !line.Trim().StartsWith("#"))
+                    {
+                        if (line.Contains('#'))
+                        {
+                            bool inquote = false;
+                            string newline = "";
+                            for (int k = 0; k < line.Length; k++)
+                            {
+                                if (line[k].Equals('"'))
+                                {
+                                    if (inquote)
+                                        inquote = false;
+                                    else
+                                        inquote = true;
+                                }
+                                if (!inquote && line[k].Equals('#'))
+                                {
+                                    k = line.Length - 1;
+                                }
+                                else
+                                {
+                                    newline += line[k];
+                                }
+                            }
+                            columns.Add(newline + "\n");
+                        }
+                        else
+                            columns.Add(line + "\n");
+                    }
+                }
             }
-            
-            #region Kezdeti Értékek
+            #endregion
+
+            #region Initial Values
             Expression currentExpression = null;
             int count = 0;
-            Expression newExp = null;
+            int i = 0;  int j = 0;
+            #endregion
+            RecursiveRead(ref i,ref j,ref currentExpression,ref count);
+
+        }
+        #region Reading Data (Script format)
+        //State Machine drawing is in the main folder
+        private void RecursiveRead(ref int i,ref int j,ref Expression ParentExpression, ref int level)
+        {
+            StateMachine sm = new StateMachine();
             string name = "", ertek = "";
-            #endregion
-            #region AdatBeolvasás (Script)
-            for (int i = 0; i < columns.Count; i++)
+            for (; i < columns.Count; i++)
             {
-                name = ""; ertek = "";
-                if (columns[i].Contains("="))
+                for (; j < columns[i].Length; j++)
                 {
-                    string[] tomb = columns[i].Split('=');
-                    name = tomb[0];
-                    ertek = tomb[1].Trim();
-                    newExp = new Expression(count, name, ertek, currentExpression);
-                    if (ertek.Equals("{"))
+                    Expression newExp = null;
+                    States previousState = sm.CurrState;
+                    sm.ChangeState(columns[i][j]);
+                    if (sm.CurrState == States.NameState || sm.CurrState == States.QuoteNameState)
                     {
-                        if (currentExpression == null)
-                            expressions.Add(newExp);
-                        else
-                            currentExpression.AddExpression(newExp);
-                        currentExpression = newExp;
-                        count++;
+                        if (previousState == States.SearchEState)
+                        {
+                            ertek = name; name = "";
+                            AddNewExpression(ref newExp, ref level, ref name, ref ertek, ref ParentExpression);
+                        }
+                        name += columns[i][j];
+
                     }
-                    else
+                    else if (sm.CurrState == States.ExpressionState||sm.CurrState==States.QuoteExpressionState)
                     {
-                        if(currentExpression == null)
-                            expressions.Add(newExp);
-                        else
-                            currentExpression.AddExpression(newExp);
+                        ertek += columns[i][j];
+
+                    }
+                    else if (sm.CurrState == States.BracketState)
+                    {
+
+                        ertek = "{";
+                        AddNewExpression(ref newExp, ref level, ref name, ref ertek, ref ParentExpression);
+                        level++;
+                        RecursiveRead(ref i, ref j, ref newExp, ref level);
+                        sm.ChangeState(columns[i][j]);
+                    }
+                    else if (sm.CurrState == States.LeaveState)
+                    {
+                        if (previousState == States.SearchEState || previousState == States.NameState)
+                        {
+                            ertek = name; name = "";
+                            AddNewExpression(ref newExp, ref level, ref name, ref ertek, ref ParentExpression);
+                        }
+                        else if (previousState == States.ExpressionState)
+                        {
+                            AddNewExpression(ref newExp, ref level, ref name, ref ertek, ref ParentExpression);
+                        }
+
+                        level--;
+                        return;
+                    }
+                    else if (sm.CurrState == States.SearchNState && previousState == States.ExpressionState)
+                    {
+
+                        AddNewExpression(ref newExp, ref level, ref name, ref ertek, ref ParentExpression);
+                    }
+                    else if (sm.CurrState == States.SearchEState && previousState == States.QuoteNameState)
+                    {
+                        name += '"';
+                    }
+                    else if (sm.CurrState == States.SearchNState && previousState == States.QuoteExpressionState) 
+                    { 
+                        ertek += '"'; 
+                        AddNewExpression(ref newExp, ref level, ref name, ref ertek, ref ParentExpression);
+                    } 
+                    else if (i == columns.Count - 1 && j == columns[i].Length - 1)
+                    {
+                        ertek = name; name = "";
+                        AddNewExpression(ref newExp, ref level, ref name, ref ertek, ref ParentExpression);
                     }
                 }
-                else
-                {
-                    if (columns[i].Trim().Equals("}"))
-                    {
-                        if(currentExpression!=null)
-                            currentExpression = currentExpression.ParentExpression();
-                        count--;
-                    }
-                    else
-                    {
-                        newExp = new Expression(count, "", columns[i].Trim(), currentExpression);
-                        if (currentExpression == null)
-                            expressions.Add(newExp);
-                        else
-                            currentExpression.AddExpression(newExp);
-                    }
-                }
+                j = 0;
             }
-            #endregion
-            #region AdatBeolvasás (YAML)
-            #endregion
-
         }
 
-      
-        public void WriteFile()
+        private void AddNewExpression(ref Expression newExp,ref int level,ref string name,ref string ertek,ref Expression ParentExpression)
         {
-
+            newExp = new Expression(level, name, ertek, ParentExpression);
+            if (ParentExpression != null)
+                ParentExpression.AddExpression(newExp);
+            else
+                expressions.Add(newExp);
+            name = ""; ertek = "";
         }
+        #endregion
+        #region Reading Data (YAML format)
+        #endregion
 
-        public void WriteExpressions()
+        public void WriteExpressions(string path)
         {
-            for (int i = 0; i < expressions.Count; i++)
+            using (StreamWriter wr = new StreamWriter(path + "/" + Path.GetFileName(filename)))
             {
-                expressions[i].Write();
+                for (int i = 0; i < expressions.Count; i++)
+                {
+                    expressions[i].Write(wr);
+                }
             }
         }
     }

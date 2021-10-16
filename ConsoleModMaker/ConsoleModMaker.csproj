@@ -55,6 +55,8 @@
     <Compile Include="FileManaging\Expression.cs" />
     <Compile Include="FileManaging\File.cs" />
     <Compile Include="FileManaging\FileDataManager.cs" />
+    <Compile Include="FileManaging\StateMachine.cs" />
+    <Compile Include="FileManaging\States.cs" />
     <Compile Include="Government.cs" />
     <Compile Include="Graphcult.cs" />
     <Compile Include="Ideagroup.cs" />

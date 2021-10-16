@@ -1,0 +1,180 @@
+monarch_power = ADM
+ahead_of_time = {
+	production_efficiency = 0.2
+	yearly_corruption = -0.05
+}
+technology = {
+	year = 1350
+	tribal_despotism_legacy = yes
+	tribal_federation_legacy = yes
+	native_earthwork = yes
+	native_palisade = yes
+	native_fortified_house = yes
+	native_three_sisters_field = yes
+	native_irrigation = yes
+	native_storehouse = yes
+	native_longhouse = yes
+	native_sweat_lodge = yes
+	native_great_trail = yes
+	native_ceremonial_fire_pit = yes
+}
+technology = {
+	year = 1390
+	tribal_democracy_legacy = yes
+	tribal_kingdom_legacy = yes
+}
+technology = {
+	year = 1420
+	despotic_monarchy = yes
+	feudal_monarchy = yes
+	oligarchic_republic = yes
+}
+technology = {
+	year = 1440
+	production_efficiency = 0.02
+	may_support_rebels = yes
+}
+technology = {
+	year = 1453
+	temple = yes
+}
+technology = {
+	year = 1466
+	allowed_idea_groups = 1
+	production_efficiency = 0.02
+}
+technology = {
+	year = 1479
+	farm_estate = yes
+	workshop = yes
+	ramparts = yes
+}
+technology = {
+	year = 1492
+	allowed_idea_groups = 2
+}
+technology = {
+	year = 1505
+	courthouse = yes
+	governing_capacity = 100
+}
+technology = {
+	year = 1518
+	production_efficiency = 0.02
+}
+technology = {
+	year = 1531
+	allowed_idea_groups = 3
+	theocratic_government = yes
+}
+technology = {
+	year = 1544
+	textile = yes
+}
+technology = {
+	year = 1557
+	administrative_monarchy = yes
+	administrative_republic = yes
+	governing_capacity = 100
+	state_house = yes
+}
+technology = {
+	year = 1570
+	production_efficiency = 0.02
+}
+technology = {
+	year = 1583
+	plantations = yes
+	allowed_idea_groups = 4
+}
+technology = {
+	year = 1596
+	may_force_march = yes
+	soldier_households = yes
+}
+technology = {
+	year = 1609
+	mills = yes
+	production_efficiency = 0.02
+}
+technology = {
+	year = 1622
+	university = yes
+	governing_capacity = 250
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+}
+technology = {
+	year = 1635
+	allowed_idea_groups = 5
+}
+technology = {
+	year = 1648
+	cathedral = yes
+}
+technology = {
+	year = 1661
+	republican_dictatorship = yes
+	governing_capacity = 250
+}
+technology = {
+	year = 1674
+	production_efficiency = 0.02
+	furnace = yes
+}
+technology = {
+	year = 1687
+	allowed_idea_groups = 6
+	constitutional_monarchy = yes
+	constitutional_republic = yes
+	town_hall = yes
+}
+technology = {
+	year = 1700
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+}
+technology = {
+	year = 1715
+	counting_house = yes
+	governing_capacity = 250
+}
+technology = {
+	year = 1730
+	production_efficiency = 0.02
+}
+technology = {
+	year = 1745
+	allowed_idea_groups = 7
+}
+technology = {
+	year = 1760
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+	governing_capacity = 250
+}
+technology = {
+	year = 1775
+	production_efficiency = 0.02
+}
+technology = {
+	year = 1790
+	allowed_idea_groups = 8
+	enlightened_despotism = yes
+	bureaucratic_despotism = yes
+}
+technology = {
+	year = 1805
+	production_efficiency = 0.02
+}
+technology = {
+	year = 1820
+	revolutionary_republic = yes
+	revolutionary_empire = yes
+	governing_capacity = 500
+}
+technology = {
+	year = 1835
+	production_efficiency = 0.02
+}
+

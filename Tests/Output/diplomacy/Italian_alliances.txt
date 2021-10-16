@@ -1,0 +1,439 @@
+vassal = {
+	first = PAP
+	second = PGA
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+vassal = {
+	first = SAV
+	second = MFA
+	start_date = 1444.1.1
+	end_date = 1445.3.12
+}
+union = {
+	first = NAP
+	second = PRO
+	start_date = 1389.11.1
+	end_date = 1399.11.1
+}
+alliance = {
+	first = NAP
+	second = PRO
+	start_date = 1389.11.1
+	end_date = 1399.11.1
+}
+union = {
+	first = MLO
+	second = GEN
+	start_date = 1464.1.1
+	end_date = 1475.1.1
+}
+alliance = {
+	first = MLO
+	second = LAN
+	start_date = 1450.5.1
+	end_date = 1454.4.9
+}
+alliance = {
+	first = VEN
+	second = AKK
+	start_date = 1472.1.1
+	end_date = 1478.1.6
+}
+alliance = {
+	first = PAP
+	second = VEN
+	start_date = 1510.2.24
+	end_date = 1513.3.22
+}
+alliance = {
+	first = PAP
+	second = HAB
+	start_date = 1511.10.4
+	end_date = 1515.12.14
+}
+alliance = {
+	first = PAP
+	second = ARA
+	start_date = 1511.10.4
+	end_date = 1515.12.14
+}
+alliance = {
+	first = PAP
+	second = SWI
+	start_date = 1511.10.4
+	end_date = 1515.11.7
+}
+alliance = {
+	first = VEN
+	second = SPA
+	start_date = 1538.2.8
+	end_date = 1540.10.2
+}
+alliance = {
+	first = VEN
+	second = GEN
+	start_date = 1538.2.8
+	end_date = 1540.10.2
+}
+alliance = {
+	first = VEN
+	second = PAP
+	start_date = 1538.2.8
+	end_date = 1540.10.2
+}
+alliance = {
+	first = VEN
+	second = KNI
+	start_date = 1538.2.8
+	end_date = 1540.10.2
+}
+alliance = {
+	first = VEN
+	second = SPA
+	start_date = 1570.7.25
+	end_date = 1573.3.7
+}
+alliance = {
+	first = VEN
+	second = PAP
+	start_date = 1570.7.25
+	end_date = 1573.3.7
+}
+alliance = {
+	first = VEN
+	second = NAP
+	start_date = 1571.5.25
+	end_date = 1573.3.7
+}
+alliance = {
+	first = VEN
+	second = GEN
+	start_date = 1571.5.25
+	end_date = 1573.3.7
+}
+alliance = {
+	first = VEN
+	second = SAV
+	start_date = 1571.5.25
+	end_date = 1573.3.7
+}
+alliance = {
+	first = VEN
+	second = KNI
+	start_date = 1571.5.25
+	end_date = 1573.3.7
+}
+vassal = {
+	first = PAP
+	second = URB
+	start_date = 1443.1.1
+	end_date = 1626.1.1
+}
+royal_marriage = {
+	first = MAN
+	second = BAV
+	start_date = 1463.5.10
+	end_date = 1479.10.14
+}
+royal_marriage = {
+	first = MAN
+	second = MOD
+	start_date = 1490.2.12
+	end_date = 1519.3.29
+}
+royal_marriage = {
+	first = MAN
+	second = HAB
+	start_date = 1561.4.26
+	end_date = 1587.8.14
+}
+royal_marriage = {
+	first = MAN
+	second = NEV
+	start_date = 1565.3.4
+	end_date = 1595.10.23
+}
+royal_marriage = {
+	first = MAN
+	second = PAR
+	start_date = 1581.3.2
+	end_date = 1583.5.26
+}
+royal_marriage = {
+	first = MAN
+	second = TUS
+	start_date = 1584.4.29
+	end_date = 1611.9.9
+}
+royal_marriage = {
+	first = MAN
+	second = SAV
+	start_date = 1608.2.19
+	end_date = 1612.12.22
+}
+royal_marriage = {
+	first = MAN
+	second = TUS
+	start_date = 1617.2.17
+	end_date = 1626.10.29
+}
+royal_marriage = {
+	first = MAN
+	second = HAB
+	start_date = 1649.11.7
+	end_date = 1665.8.14
+}
+royal_marriage = {
+	first = MLO
+	second = MAN
+	start_date = 1466.1.1
+	end_date = 1467.4.21
+}
+royal_marriage = {
+	first = MLO
+	second = SAV
+	start_date = 1468.7.6
+	end_date = 1476.12.26
+}
+royal_marriage = {
+	first = MLO
+	second = NAP
+	start_date = 1489.2.2
+	end_date = 1594.10.22
+}
+royal_marriage = {
+	first = MLO
+	second = MOD
+	start_date = 1491.9.18
+	end_date = 1497.11.30
+}
+royal_marriage = {
+	first = MLO
+	second = DAN
+	start_date = 1534.5.4
+	end_date = 1535.11.1
+}
+royal_marriage = {
+	first = MOD
+	second = NAP
+	start_date = 1473.7.4
+	end_date = 1493.10.11
+}
+royal_marriage = {
+	first = MOD
+	second = FRA
+	start_date = 1528.6.28
+	end_date = 1559.10.3
+}
+royal_marriage = {
+	first = MOD
+	second = LAN
+	start_date = 1558.7.3
+	end_date = 1562.4.21
+}
+royal_marriage = {
+	first = MOD
+	second = HAB
+	start_date = 1565.12.5
+	end_date = 1572.9.19
+}
+royal_marriage = {
+	first = MOD
+	second = MAN
+	start_date = 1579.2.24
+	end_date = 1597.10.27
+}
+royal_marriage = {
+	first = MOD
+	second = TUS
+	start_date = 1586.2.6
+	end_date = 1615.1.15
+}
+royal_marriage = {
+	first = MOD
+	second = SAV
+	start_date = 1608.2.22
+	end_date = 1626.8.22
+}
+royal_marriage = {
+	first = MOD
+	second = PAR
+	start_date = 1631.1.11
+	end_date = 1646.6.25
+}
+royal_marriage = {
+	first = MOD
+	second = PAR
+	start_date = 1648.2.12
+	end_date = 1649.8.10
+}
+royal_marriage = {
+	first = MOD
+	second = PAR
+	start_date = 1692.7.14
+	end_date = 1694.9.6
+}
+royal_marriage = {
+	first = MOD
+	second = LUN
+	start_date = 1696.2.11
+	end_date = 1710.12.31
+}
+royal_marriage = {
+	first = MOD
+	second = FRA
+	start_date = 1720.6.21
+	end_date = 1761.1.19
+}
+royal_marriage = {
+	first = MOD
+	second = SAR
+	start_date = 1812.6.20
+	end_date = 1840.9.15
+}
+royal_marriage = {
+	first = PAR
+	second = SPA
+	start_date = 1538.11.4
+	end_date = 1586.1.18
+}
+royal_marriage = {
+	first = PAR
+	second = POR
+	start_date = 1565.11.11
+	end_date = 1577.7.9
+}
+royal_marriage = {
+	first = PAR
+	second = TUS
+	start_date = 1628.10.11
+	end_date = 1646.9.11
+}
+royal_marriage = {
+	first = PAR
+	second = SAV
+	start_date = 1660.4.29
+	end_date = 1663.4.29
+}
+royal_marriage = {
+	first = PAR
+	second = MOD
+	start_date = 1664.2.18
+	end_date = 1666.8.17
+}
+royal_marriage = {
+	first = PAR
+	second = MOD
+	start_date = 1668.10.1
+	end_date = 1684.8.20
+}
+royal_marriage = {
+	first = PAR
+	second = PAL
+	start_date = 1690.4.3
+	end_date = 1693.9.6
+}
+royal_marriage = {
+	first = PAR
+	second = PAL
+	start_date = 1696.9.7
+	end_date = 1727.2.26
+}
+royal_marriage = {
+	first = PAR
+	second = MOD
+	start_date = 1728.2.5
+	end_date = 1731.1.20
+}
+royal_marriage = {
+	first = PAR
+	second = FRA
+	start_date = 1739.10.25
+	end_date = 1759.12.6
+}
+royal_marriage = {
+	first = PAR
+	second = HAB
+	start_date = 1769.7.18
+	end_date = 1802.10.9
+}
+royal_marriage = {
+	first = SIE
+	second = NAV
+	start_date = 1502.2.2
+	end_date = 1503.3.29
+}
+royal_marriage = {
+	first = LAN
+	second = SPA
+	start_date = 1536.2.28
+	end_date = 1537.1.5
+}
+royal_marriage = {
+	first = LAN
+	second = HAB
+	start_date = 1565.12.18
+	end_date = 1578.4.11
+}
+royal_marriage = {
+	first = TUS
+	second = HAB
+	start_date = 1569.8.1
+	end_date = 1578.4.11
+}
+royal_marriage = {
+	first = TUS
+	second = LOR
+	start_date = 1589.5.3
+	end_date = 1609.2.17
+}
+royal_marriage = {
+	first = TUS
+	second = HAB
+	start_date = 1608.10.19
+	end_date = 1621.2.28
+}
+royal_marriage = {
+	first = TUS
+	second = FRA
+	start_date = 1661.6.20
+	end_date = 1721.9.17
+}
+royal_marriage = {
+	first = TUS
+	second = NAP
+	start_date = 1790.9.19
+	end_date = 1802.9.19
+}
+royal_marriage = {
+	first = URB
+	second = MAN
+	start_date = 1489.2.11
+	end_date = 1508.4.11
+}
+royal_marriage = {
+	first = URB
+	second = MAN
+	start_date = 1508.4.11
+	end_date = 1538.10.20
+}
+royal_marriage = {
+	first = URB
+	second = PAR
+	start_date = 1547.6.29
+	end_date = 1574.9.28
+}
+royal_marriage = {
+	first = URB
+	second = MOD
+	start_date = 1570.5.18
+	end_date = 1578.12.31
+}
+royal_marriage = {
+	first = SAR
+	second = SPA
+	start_date = 1750.1.1
+	end_date = 1785.1.1
+}
+

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,21 +38,21 @@ namespace ConsoleModMaker.FileManaging
                 childexpressions.Add(expression);
         }
 
-        public void Write()
+        public void Write(StreamWriter wr)
         {
             for(int i=0;i<level;i++)
-                Console.Write("\t");
+                wr.Write("\t");
             if(!name.Equals(""))
-                Console.WriteLine(name + " = " + (ertek.Equals("{}") ? "{" : ertek));
+                wr.WriteLine(name + " = " + (ertek.Equals("{") ? "{" : ertek));
             else
-                Console.WriteLine(ertek);
+                wr.WriteLine(ertek);
             for (int i = 0; i < childexpressions.Count; i++)
-                childexpressions[i].Write();
+                childexpressions[i].Write(wr);
             if (ertek.Equals("{"))
             {
                 for (int i = 0; i < level; i++)
-                    Console.Write("\t");
-                Console.WriteLine("}");
+                    wr.Write("\t");
+                wr.WriteLine("}");
             }
         }
     }

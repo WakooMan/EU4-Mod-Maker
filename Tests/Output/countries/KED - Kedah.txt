@@ -1,0 +1,472 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+primary_culture = malayan
+religion = sunni
+technology_group = chinese
+capital = 2394
+fixed_capital = 2394
+religious_school = maliki_school
+1136.1.1 = {
+	monarch = {
+		name = "Mudzafar Sh�h"
+		dynasty = "Kedah"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	add_piety = 0.1
+}
+1160.1.1 = {
+	heir = {
+		name = "Mu'adzam Sh�h"
+		monarch_name = "Mu'adzam Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1160.1.1
+		death_Date = 1201.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1179.1.1 = {
+	monarch = {
+		name = "Mu'adzam Sh�h"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1180.1.1 = {
+	heir = {
+		name = "Muhammad Sh�h"
+		monarch_name = "Muhammad Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1180.1.1
+		death_Date = 1236.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1201.1.1 = {
+	monarch = {
+		name = "Muhammad Sh�h"
+		dynasty = "Kedah"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1201.1.1 = {
+	heir = {
+		name = "Mudzaffar Sh�h"
+		monarch_name = "Mudzaffar Sh�h II"
+		dynasty = "Kedah"
+		birth_date = 1200.1.1
+		death_Date = 1280.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+1236.1.1 = {
+	monarch = {
+		name = "Mudzaffar Sh�h II"
+		dynasty = "Kedah"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+1250.1.1 = {
+	heir = {
+		name = "Mahm�d Sh�h"
+		monarch_name = "Mahm�d Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1250.1.1
+		death_Date = 1321.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1280.1.1 = {
+	monarch = {
+		name = "Mahm�d Sh�h"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1300.1.1 = {
+	heir = {
+		name = "Ibr�h�m Sh�h"
+		monarch_name = "Ibr�h�m Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1300.1.1
+		death_Date = 1373.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1321.1.1 = {
+	monarch = {
+		name = "Ibr�h�m Sh�h"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1350.1.1 = {
+	heir = {
+		name = "Sulaiman Sh�h"
+		monarch_name = "Sulaiman Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1350.1.1
+		death_Date = 1422.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1373.1.1 = {
+	monarch = {
+		name = "Sulaiman Sh�h"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1400.1.1 = {
+	heir = {
+		name = "Ataullah Muhammad Sh�h"
+		monarch_name = "Ataullah Muhammad Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1400.1.1
+		death_Date = 1472.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1422.1.1 = {
+	monarch = {
+		name = "Ataullah Muhammad Sh�h"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1430.1.1 = {
+	heir = {
+		name = "Muhammad Jiwa Zainal Adilin"
+		monarch_name = "Muhammad Jiwa Zainal Adilin"
+		dynasty = "Kedah"
+		birth_date = 1430.1.1
+		death_Date = 1506.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1472.1.1 = {
+	monarch = {
+		name = "Muhammad Jiwa Zainal Adilin"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1480.1.1 = {
+	heir = {
+		name = "Mahm�d Sh�h"
+		monarch_name = "Mahm�d Sh�h II"
+		dynasty = "Kedah"
+		birth_date = 1480.1.1
+		death_Date = 1546.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1506.1.1 = {
+	monarch = {
+		name = "Mahm�d Sh�h II"
+		dynasty = "Kedah"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1520.1.1 = {
+	heir = {
+		name = "Mudzaffar Sh�h"
+		monarch_name = "Mudzaffar Sh�h II"
+		dynasty = "Kedah"
+		birth_date = 1520.1.1
+		death_Date = 1602.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1546.1.1 = {
+	monarch = {
+		name = "Mudzaffar Sh�h II"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1560.1.1 = {
+	heir = {
+		name = "Sulaiman Sh�h"
+		monarch_name = "Sulaiman Sh�h II"
+		dynasty = "Kedah"
+		birth_date = 1560.1.1
+		death_Date = 1625.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1602.1.1 = {
+	monarch = {
+		name = "Sulaiman Sh�h II"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1602.1.1 = {
+	heir = {
+		name = "Rijaluddin Muhammad Sh�h"
+		monarch_name = "Rijaluddin Muhammad Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1590.1.1
+		death_Date = 1651.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1625.1.1 = {
+	monarch = {
+		name = "Rijaluddin Muhammad Sh�h"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1625.1.1 = {
+	heir = {
+		name = "Muhyiddin Mans�r Sh�h"
+		monarch_name = "Muhyiddin Mans�r Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1610.1.1
+		death_Date = 1661.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1651.1.1 = {
+	monarch = {
+		name = "Muhyiddin Mans�rad Sh�h"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1651.1.1 = {
+	heir = {
+		name = "Dziaddin Mukarram Sh�h"
+		monarch_name = "Dziaddin Mukarram Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1630.1.1
+		death_Date = 1687.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1661.1.1 = {
+	monarch = {
+		name = "Dziaddin Mukarram Sh�h"
+		dynasty = "Kedah"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1661.1.1 = {
+	heir = {
+		name = "Ataullah Muhammad Sh�h"
+		monarch_name = "Ataullah Muhammad Sh�h II"
+		dynasty = "Kedah"
+		birth_date = 1660.1.1
+		death_Date = 1698.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1687.1.1 = {
+	monarch = {
+		name = "Ataullah Muhammad Sh�h II"
+		dynasty = "Kedah"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1687.1.1 = {
+	heir = {
+		name = "Abdullah Mu'adzam  Sh�h"
+		monarch_name = "Abdullah Mu'adzam  Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1680.1.1
+		death_Date = 1706.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+1698.1.1 = {
+	monarch = {
+		name = "Abdullah Mu'adzam Sh�h"
+		dynasty = "Kedah"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+1698.1.1 = {
+	heir = {
+		name = "Ahmad Tajuddin Halim Sh�h"
+		monarch_name = "Ahmad Tajuddin Halim  Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1690.1.1
+		death_Date = 1709.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1706.1.1 = {
+	monarch = {
+		name = "Ahmad Tajuddin Halim Sh�h"
+		dynasty = "Kedah"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+1706.1.1 = {
+	heir = {
+		name = "Muhammad Jiwa Zainal Adilin"
+		monarch_name = "Muhammad Jiwa Zainal Adilin II"
+		dynasty = "Kedah"
+		birth_date = 1700.1.1
+		death_Date = 1778.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1709.1.1 = {
+	monarch = {
+		name = "Muhammad Jiwa Zainal Adilin II"
+		dynasty = "Kedah"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1730.1.1 = {
+	heir = {
+		name = "Abdullah Mukarram Sh�h"
+		monarch_name = "Abdullah Mukarram Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1730.1.1
+		death_Date = 1797.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1778.1.1 = {
+	monarch = {
+		name = "Abdullah Mukarram Sh�h"
+		dynasty = "Kedah"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1778.1.1 = {
+	heir = {
+		name = "Ahmad Tajuddin Halim Sh�h"
+		monarch_name = "Ahmad Tajuddin Halim Sh�h II"
+		dynasty = "Kedah"
+		birth_date = 1770.1.1
+		death_Date = 1843.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1797.1.1 = {
+	monarch = {
+		name = "Ahmad Tajuddin Halim Sh�h"
+		dynasty = "Kedah"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1800.1.1 = {
+	heir = {
+		name = "Zainal Rashid Al-Mu'adzam Sh�h"
+		monarch_name = "Zainal Rashid Al-Mu'adzam Sh�h"
+		dynasty = "Kedah"
+		birth_date = 1800.1.1
+		death_Date = 1854.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+

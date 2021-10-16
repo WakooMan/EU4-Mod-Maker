@@ -1,0 +1,7 @@
+1558.1.16 = {
+	discovered_by = SPA
+}
+1764.1.1 = {
+	discovered_by = GBR
+}
+

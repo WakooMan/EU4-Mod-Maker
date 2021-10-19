@@ -21,7 +21,7 @@ namespace FileReadingTest.FileManaging
         public List<string> Columns { get { return columns; } }
         public void ReadFile()
         {
-            #region FileReading without comments
+            #region FileReading without reading comments
             using (freader = new StreamReader(filename))
             {
                 while (!freader.EndOfStream)
@@ -69,7 +69,7 @@ namespace FileReadingTest.FileManaging
 
         }
         #region Reading Data (Script format)
-        //State Machine drawing is in the main folder
+        //State Machine drawing is in the diagrams folder
         private void RecursiveRead(ref int i,ref int j,ref Expression ParentExpression, ref int level)
         {
             StateMachine sm = new StateMachine();
@@ -102,6 +102,12 @@ namespace FileReadingTest.FileManaging
                         ertek = "{";
                         AddNewExpression(ref newExp, ref level, ref name, ref ertek, ref ParentExpression);
                         level++;
+                        if (j == columns[i].Length - 1)
+                        {
+                            i++; j = 0;
+                        }
+                        else
+                            j++;
                         RecursiveRead(ref i, ref j, ref newExp, ref level);
                         sm.ChangeState(columns[i][j]);
                     }

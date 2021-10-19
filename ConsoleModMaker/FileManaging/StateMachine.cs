@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleModMaker.FileManaging
+namespace FileReadingTest.FileManaging
 {
     class StateMachine
     {
@@ -13,57 +13,69 @@ namespace ConsoleModMaker.FileManaging
 
         public StateMachine() { currState = States.SearchNState; }
 
+        private bool IsWS(char c)
+        {
+            return c.Equals('\n') || c.Equals(' ') || c.Equals('\t');
+        }
         public void ChangeState(char c)
         {
-        
-            
-            switch (c)
+            switch (currState)
             {
-                case ' ':
-                case '\t':
-                case '\n':
-                    if (currState == States.NameState)
-                        currState = States.SearchEState;
-                    else if (currState == States.ExpressionState)
-                        currState = States.SearchNState;
-                    break;
-                case '{':
-                    if (currState == States.EqualsState)
-                        currState = States.BracketState;
-                    break;
-                case '}':
-                    if (currState != States.BracketState && currState != States.LeaveState)
+                case States.SearchNState:
+                    if (c.Equals('"'))
+                        currState = States.QuoteNameState;
+                    else if (c.Equals('}'))
                         currState = States.LeaveState;
-                    else if (currState == States.BracketState)
+                    else if (!IsWS(c))
+                        currState = States.NameState;
+                    break;
+                case States.NameState:
+                    if (c.Equals('='))
+                        currState = States.EqualsState;
+                    else if (c.Equals('}'))
+                        currState = States.LeaveState;
+                    else if (IsWS(c))
+                        currState = States.SearchEState;
+                    break;
+                case States.QuoteNameState:
+                    if (c.Equals('"'))
+                        currState = States.SearchEState;
+                    break;
+                case States.SearchEState:
+                    if (c.Equals('"'))
+                        currState = States.QuoteNameState;
+                    else if (c.Equals('='))
+                        currState = States.EqualsState;
+                    else if (c.Equals('}'))
+                        currState = States.LeaveState;
+                    else if (!IsWS(c))
+                        currState = States.NameState;
+                    break;
+                case States.EqualsState:
+                    if (c.Equals('"'))
+                        currState = States.QuoteExpressionState;
+                    else if (c.Equals('{'))
+                        currState = States.BracketState;
+                    else if (!IsWS(c))
+                        currState = States.ExpressionState;
+                    break;
+                case States.ExpressionState:
+                    if (c.Equals('}'))
+                        currState = States.LeaveState;
+                    else if (IsWS(c))
                         currState = States.SearchNState;
                     break;
-                case '=':
-                    if (CurrState == States.SearchEState||CurrState==States.NameState)
-                        currState = States.EqualsState;
+                case States.QuoteExpressionState:
+                    if (c.Equals('"'))
+                        currState = States.SearchNState;
                     break;
-                case '"':
-                    if (currState == States.SearchNState)
-                        currState = States.QuoteNameState;
-                    else if (currState == States.QuoteNameState)
-                        currState = States.SearchEState;
-                    else if (currState == States.EqualsState)
-                        currState = States.QuoteExpressionState; 
-                    else if (currState == States.SearchEState)
-                        currState = States.QuoteNameState;
-                    else if (currState == States.QuoteExpressionState) 
-                        currState = States.SearchNState; 
+                case States.BracketState:
+                    if (c.Equals('}'))
+                        currState = States.SearchNState;
                     break;
-                default:
-                    if (currState == States.SearchNState)
-                        currState = States.NameState;
-                    else if (currState == States.EqualsState)
-                        currState = States.ExpressionState;
-                    else if (currState == States.SearchEState)
-                        currState = States.NameState;
+                case States.LeaveState:
                     break;
-
             }
-         
         }
     }
 }

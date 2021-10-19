@@ -5,8 +5,17 @@ This is going to be a Mod Editor for Europa Universalis 4.
 The first goal is to be able to make random countries in the game (making ideagroups,ideas, government reforms and types, religion, etc.)
 , after that i am going to dive in map creating and else.
 
-I want to make a program, where you can learn scripting as well, so i am planning to create a GUI, where you can switch between
-code view and "making" view so you can see every code change, while you are editing the mod.
+# Goal
+My goal with this mod maker is mostly educational and i want to use it as a reference. Of course I want to
+help the modders of Europa Universalis 4, but i don't think anyone will use it in the future. 
+
+# Used Programs and Frameworks
+1. WhiteStarUml for making Diagrams
+2. Visual Studio for coding and github management
+3. .Net Framework and WinForms application for GUI and else.
+4. Word for making documentation. (probably will)
+
+# Progress Reports
 
 2021-10-12 report:
 Progress:
@@ -27,5 +36,11 @@ Progress:
 Next Step:
 	Now i can work on making the classes i wrote convertable back and forth to Expression classes.
 	
+2021-10-19 report:
+Progress:
+	Made the state machine in WhiteStarUml program and rewrote the state machine, so the code is more likely readable. My plan for making classes Convertable
+	is to make an interface, that have 4 functions. 2 of them is reading files or a file and fill the class/classes. The other 2 is for Converting the class to files or file objects.
+Next Step:
+	Writing comments on code and implement the interface as well as start country making part of the program.
 	
 

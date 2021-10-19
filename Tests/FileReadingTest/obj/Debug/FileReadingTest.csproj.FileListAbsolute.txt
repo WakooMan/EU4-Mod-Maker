@@ -5,3 +5,10 @@ C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\obj\Debug\FileReading
 C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.csproj.CoreCompileInputs.cache
 C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.exe
 C:\Github Repos\Egyéb\EU! Mod Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.pdb
+D:\Saját Projektek\EU4ModMaker\EU4-Mod-Maker\Tests\FileReadingTest\bin\Debug\FileReadingTest.exe.config
+D:\Saját Projektek\EU4ModMaker\EU4-Mod-Maker\Tests\FileReadingTest\bin\Debug\FileReadingTest.exe
+D:\Saját Projektek\EU4ModMaker\EU4-Mod-Maker\Tests\FileReadingTest\bin\Debug\FileReadingTest.pdb
+D:\Saját Projektek\EU4ModMaker\EU4-Mod-Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.csprojAssemblyReference.cache
+D:\Saját Projektek\EU4ModMaker\EU4-Mod-Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.csproj.CoreCompileInputs.cache
+D:\Saját Projektek\EU4ModMaker\EU4-Mod-Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.exe
+D:\Saját Projektek\EU4ModMaker\EU4-Mod-Maker\Tests\FileReadingTest\obj\Debug\FileReadingTest.pdb
